@@ -1,0 +1,275 @@
+[21-Jun-2024 06:29:59 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.29. in /home/msfgfinance/public_html/app/vendor/composer/platform_check.php on line 24
+[21-Jun-2024 06:30:18 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.29. in /home/msfgfinance/public_html/app/vendor/composer/platform_check.php on line 24
+[21-Jun-2024 06:30:20 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.29. in /home/msfgfinance/public_html/app/vendor/composer/platform_check.php on line 24
+[21-Jun-2024 07:44:33 UTC] PHP Warning:  require(/home/msfgfinance/public_html/app/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/msfgfinance/public_html/app/index.php on line 34
+[21-Jun-2024 07:44:33 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/msfgfinance/public_html/app/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/msfgfinance/public_html/app/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/msfgfinance/public_html/app/index.php on line 34
+[21-Jun-2024 07:44:43 UTC] PHP Warning:  require(/home/msfgfinance/public_html/app/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/msfgfinance/public_html/app/index.php on line 34
+[21-Jun-2024 07:44:43 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/msfgfinance/public_html/app/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/msfgfinance/public_html/app/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/msfgfinance/public_html/app/index.php on line 34
+[21-Jun-2024 07:46:47 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.29. in /home/msfgfinance/public_html/app/vendor/composer/platform_check.php on line 24
+[26-Jun-2024 07:14:41 UTC] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 1052774400 bytes) in /home/msfgfinance/public_html/app/app/Http/Controllers/Auth/FormController.php on line 65
+[27-Jun-2024 04:31:53 UTC] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 1052774400 bytes) in /home/msfgfinance/public_html/app/app/Http/Controllers/Auth/FormController.php on line 26
+[27-Jun-2024 04:31:56 UTC] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 1052774400 bytes) in /home/msfgfinance/public_html/app/app/Http/Controllers/Auth/FormController.php on line 26
+[27-Jun-2024 07:29:55 UTC] PHP Fatal error:  Cannot declare class App\Http\Controllers\FormManagementController, because the name is already in use in /home/msfgfinance/public_html/app/app/Http/Controllers/Apps/FormManagementController.php on line 8
+[27-Jun-2024 07:30:41 UTC] PHP Fatal error:  Cannot declare class App\Http\Controllers\FormManagementController, because the name is already in use in /home/msfgfinance/public_html/app/app/Http/Controllers/Apps/FormManagementController.php on line 8
+[27-Jun-2024 07:31:33 UTC] PHP Fatal error:  Cannot declare class App\Http\Controllers\FormManagementController, because the name is already in use in /home/msfgfinance/public_html/app/app/Http/Controllers/Apps/FormManagementController.php on line 8
+[27-Jun-2024 07:34:58 UTC] PHP Fatal error:  Cannot declare class App\Http\Controllers\FormsController, because the name is already in use in /home/msfgfinance/public_html/app/app/Http/Controllers/Apps/FormsController.php on line 8
+[27-Jun-2024 07:36:56 UTC] PHP Fatal error:  Cannot declare class App\Http\Controllers\FormsController, because the name is already in use in /home/msfgfinance/public_html/app/app/Http/Controllers/Apps/FormsController.php on line 8
+[27-Jun-2024 07:38:06 UTC] PHP Fatal error:  Cannot declare class App\Http\Controllers\FormsController, because the name is already in use in /home/msfgfinance/public_html/app/app/Http/Controllers/Apps/FormsController.php on line 8
+[27-Jun-2024 07:41:04 UTC] PHP Fatal error:  Cannot declare class App\Http\Controllers\FormManagementController, because the name is already in use in /home/msfgfinance/public_html/app/app/Http/Controllers/Apps/FormManagementController.php on line 8
+[27-Jun-2024 07:41:24 UTC] PHP Fatal error:  Cannot declare class App\Http\Controllers\FormManagementController, because the name is already in use in /home/msfgfinance/public_html/app/app/Http/Controllers/Apps/FormManagementController.php on line 9
+[27-Jun-2024 07:42:12 UTC] PHP Fatal error:  Cannot declare class App\Http\Controllers\FormManagementController, because the name is already in use in /home/msfgfinance/public_html/app/app/Http/Controllers/Apps/FormManagementController.php on line 8
+[27-Jun-2024 07:43:01 UTC] PHP Fatal error:  Cannot declare class App\Http\Controllers\FormManagementController, because the name is already in use in /home/msfgfinance/public_html/app/app/Http/Controllers/Apps/FormManagementController.php on line 8
+[27-Jun-2024 07:44:28 UTC] PHP Fatal error:  Cannot declare class App\Http\Controllers\FormManagementController, because the name is already in use in /home/msfgfinance/public_html/app/app/Http/Controllers/Apps/FormManagementController.php on line 8
+[27-Jun-2024 07:44:31 UTC] PHP Fatal error:  Cannot declare class App\Http\Controllers\FormManagementController, because the name is already in use in /home/msfgfinance/public_html/app/app/Http/Controllers/Apps/FormManagementController.php on line 8
+[27-Jun-2024 07:44:42 UTC] PHP Fatal error:  Cannot declare class App\Http\Controllers\FormManagementController, because the name is already in use in /home/msfgfinance/public_html/app/app/Http/Controllers/Apps/FormManagementController.php on line 8
+[27-Jun-2024 09:54:14 UTC] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 1050677248 bytes) in /home/msfgfinance/public_html/app/app/Http/Controllers/Apps/FormManagementController.php on line 30
+[27-Jun-2024 11:31:57 UTC] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 1050677248 bytes) in /home/msfgfinance/public_html/app/app/Http/Controllers/Apps/FormManagementController.php on line 30
+[27-Jun-2024 11:32:04 UTC] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 1050677248 bytes) in /home/msfgfinance/public_html/app/app/Http/Controllers/Apps/FormManagementController.php on line 30
+[03-Jul-2024 10:26:37 UTC] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 1052774400 bytes) in /home/msfgfinance/public_html/app/app/Http/Controllers/Auth/FormController.php on line 190
+[03-Jul-2024 10:26:38 UTC] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 1052774400 bytes) in /home/msfgfinance/public_html/app/app/Http/Controllers/Auth/FormController.php on line 190
+[03-Jul-2024 10:26:44 UTC] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 1052774400 bytes) in /home/msfgfinance/public_html/app/app/Http/Controllers/Auth/FormController.php on line 190
+[09-Jul-2024 10:50:44 UTC] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 1042288640 bytes) in /home/msfgfinance/public_html/app/app/Http/Controllers/Auth/FormController.php on line 547
+[09-Jul-2024 10:50:50 UTC] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 1042288640 bytes) in /home/msfgfinance/public_html/app/app/Http/Controllers/Auth/FormController.php on line 547
+[09-Jul-2024 10:50:59 UTC] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 1042288640 bytes) in /home/msfgfinance/public_html/app/app/Http/Controllers/Auth/FormController.php on line 547
+[09-Jul-2024 10:51:26 UTC] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 1042288640 bytes) in /home/msfgfinance/public_html/app/app/Http/Controllers/Auth/FormController.php on line 547
+[09-Jul-2024 10:51:40 UTC] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 1042288640 bytes) in /home/msfgfinance/public_html/app/app/Http/Controllers/Auth/FormController.php on line 547
+[09-Jul-2024 10:51:44 UTC] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 1042288640 bytes) in /home/msfgfinance/public_html/app/app/Http/Controllers/Auth/FormController.php on line 547
+[09-Jul-2024 10:51:53 UTC] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 1042288640 bytes) in /home/msfgfinance/public_html/app/app/Http/Controllers/Auth/FormController.php on line 547
+[09-Jul-2024 10:54:05 UTC] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 1042288640 bytes) in /home/msfgfinance/public_html/app/app/Http/Controllers/Auth/FormController.php on line 550
+[09-Jul-2024 10:54:13 UTC] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 1042288640 bytes) in /home/msfgfinance/public_html/app/app/Http/Controllers/Auth/FormController.php on line 550
+[09-Jul-2024 10:55:24 UTC] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 1042288640 bytes) in /home/msfgfinance/public_html/app/app/Http/Controllers/Auth/FormController.php on line 550
+[09-Aug-2024 07:56:22 UTC] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 1048580096 bytes) in /home/msfgfinance/public_html/app/app/Http/Controllers/Apps/FormManagementController.php on line 189
+[09-Aug-2024 07:56:24 UTC] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 1048580096 bytes) in /home/msfgfinance/public_html/app/app/Http/Controllers/Apps/FormManagementController.php on line 189
+[09-Aug-2024 07:56:32 UTC] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 1048580096 bytes) in /home/msfgfinance/public_html/app/app/Http/Controllers/Apps/FormManagementController.php on line 189
+[12-Aug-2024 08:10:52 UTC] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 1050677248 bytes) in /home/msfgfinance/public_html/app/app/Http/Controllers/Auth/FormController.php on line 49
+[12-Aug-2024 08:10:58 UTC] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 1050677248 bytes) in /home/msfgfinance/public_html/app/app/Http/Controllers/Auth/FormController.php on line 49
+[12-Aug-2024 09:53:55 UTC] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 1050677248 bytes) in /home/msfgfinance/public_html/app/app/Http/Controllers/Auth/FormController.php on line 50
+[12-Aug-2024 09:53:57 UTC] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 1050677248 bytes) in /home/msfgfinance/public_html/app/app/Http/Controllers/Auth/FormController.php on line 50
+[12-Aug-2024 09:54:00 UTC] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 1050677248 bytes) in /home/msfgfinance/public_html/app/app/Http/Controllers/Auth/FormController.php on line 50
+[12-Aug-2024 09:54:04 UTC] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 1050677248 bytes) in /home/msfgfinance/public_html/app/app/Http/Controllers/Auth/FormController.php on line 50
+[12-Aug-2024 09:54:06 UTC] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 1050677248 bytes) in /home/msfgfinance/public_html/app/app/Http/Controllers/Auth/FormController.php on line 50
+[13-Aug-2024 06:20:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on string in /home/msfgfinance/public_html/app/vendor/symfony/http-foundation/Response.php:310
+Stack trace:
+#0 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(642): Symfony\Component\HttpFoundation\Response->prepare(Object(Illuminate\Http\Request))
+#1 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(556): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Error))
+#2 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(473): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(Error))
+#3 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(218): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Error))
+#4 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(195): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Error))
+#5 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Error))
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(Error))
+#7 {main}
+  thrown in /home/msfgfinance/public_html/app/vendor/symfony/http-foundation/Response.php on line 310
+[13-Aug-2024 06:20:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on string in /home/msfgfinance/public_html/app/vendor/symfony/http-foundation/Response.php:310
+Stack trace:
+#0 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(642): Symfony\Component\HttpFoundation\Response->prepare(Object(Illuminate\Http\Request))
+#1 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(556): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Error))
+#2 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(473): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(Error))
+#3 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(218): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Error))
+#4 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(195): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Error))
+#5 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Error))
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(Error))
+#7 {main}
+  thrown in /home/msfgfinance/public_html/app/vendor/symfony/http-foundation/Response.php on line 310
+[13-Aug-2024 06:21:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on string in /home/msfgfinance/public_html/app/vendor/symfony/http-foundation/Response.php:310
+Stack trace:
+#0 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(642): Symfony\Component\HttpFoundation\Response->prepare(Object(Illuminate\Http\Request))
+#1 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(556): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Error))
+#2 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(473): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(Error))
+#3 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(218): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Error))
+#4 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(195): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Error))
+#5 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Error))
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(Error))
+#7 {main}
+  thrown in /home/msfgfinance/public_html/app/vendor/symfony/http-foundation/Response.php on line 310
+[21-Aug-2024 05:33:40 UTC] PHP Fatal error:  Cannot use App\Models\Links as Links because the name is already in use in /home/msfgfinance/public_html/app/app/Http/Controllers/Auth/FormController.php on line 8
+[27-Aug-2024 05:41:59 UTC] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 1048580096 bytes) in /home/msfgfinance/public_html/app/app/DataTables/LinkTable.php on line 51
+[27-Aug-2024 05:43:38 UTC] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 1048580096 bytes) in /home/msfgfinance/public_html/app/app/DataTables/LinkTable.php on line 51
+[27-Aug-2024 05:44:52 UTC] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 1048580096 bytes) in /home/msfgfinance/public_html/app/app/DataTables/LinkTable.php on line 49
+[27-Aug-2024 05:47:36 UTC] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 1048580096 bytes) in /home/msfgfinance/public_html/app/app/DataTables/LinkTable.php on line 47
+[05-Sep-2024 11:45:14 UTC] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 1048580096 bytes) in /home/msfgfinance/public_html/app/app/DataTables/LinkTable.php on line 48
+[05-Sep-2024 11:45:38 UTC] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 1048580096 bytes) in /home/msfgfinance/public_html/app/app/DataTables/LinkTable.php on line 48
+[06-Sep-2024 05:17:42 UTC] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 1048580096 bytes) in /home/msfgfinance/public_html/app/app/DataTables/LinkTable.php on line 33
+[06-Sep-2024 05:17:55 UTC] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 1048580096 bytes) in /home/msfgfinance/public_html/app/app/DataTables/LinkTable.php on line 33
+[06-Sep-2024 07:03:00 UTC] PHP Fatal error:  Constant expression contains invalid operations in /home/msfgfinance/public_html/app/app/DataTables/ReferralTable.php on line 52
+[06-Sep-2024 07:03:02 UTC] PHP Fatal error:  Constant expression contains invalid operations in /home/msfgfinance/public_html/app/app/DataTables/ReferralTable.php on line 52
+[06-Sep-2024 07:03:33 UTC] PHP Fatal error:  Constant expression contains invalid operations in /home/msfgfinance/public_html/app/app/DataTables/ReferralTable.php on line 52
+[06-Sep-2024 07:08:02 UTC] PHP Fatal error:  Constant expression contains invalid operations in /home/msfgfinance/public_html/app/app/DataTables/ReferralTable.php on line 51
+[06-Sep-2024 07:08:04 UTC] PHP Fatal error:  Constant expression contains invalid operations in /home/msfgfinance/public_html/app/app/DataTables/ReferralTable.php on line 51
+[07-Sep-2024 04:31:24 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:352
+Stack trace:
+#0 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(744): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(719): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(650): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(556): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(473): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(Error))
+#6 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(509): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Error))
+#7 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(148): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(Error))
+#8 /home/msfgfinance/public_html/app/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#9 {main}
+  thrown in /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 352
+[07-Sep-2024 04:31:25 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:352
+Stack trace:
+#0 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(744): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(719): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(650): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(556): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(473): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(Error))
+#6 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(509): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Error))
+#7 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(148): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(Error))
+#8 /home/msfgfinance/public_html/app/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#9 {main}
+  thrown in /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 352
+[07-Sep-2024 04:31:26 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:352
+Stack trace:
+#0 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(744): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(719): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(650): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(556): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(473): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(Error))
+#6 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(509): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Error))
+#7 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(148): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(Error))
+#8 /home/msfgfinance/public_html/app/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#9 {main}
+  thrown in /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 352
+[07-Sep-2024 04:31:27 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:352
+Stack trace:
+#0 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(744): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(719): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(650): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(556): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(473): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(Error))
+#6 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(509): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Error))
+#7 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(148): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(Error))
+#8 /home/msfgfinance/public_html/app/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#9 {main}
+  thrown in /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 352
+[07-Sep-2024 04:31:28 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:352
+Stack trace:
+#0 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(744): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(719): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(650): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(556): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(473): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(Error))
+#6 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(509): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Error))
+#7 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(148): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(Error))
+#8 /home/msfgfinance/public_html/app/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#9 {main}
+  thrown in /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 352
+[07-Sep-2024 04:31:29 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:352
+Stack trace:
+#0 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(744): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(719): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(650): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(556): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(473): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(Error))
+#6 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(509): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Error))
+#7 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(148): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(Error))
+#8 /home/msfgfinance/public_html/app/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#9 {main}
+  thrown in /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 352
+[07-Sep-2024 04:31:30 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:352
+Stack trace:
+#0 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(744): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(719): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(650): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(556): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(473): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(Error))
+#6 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(509): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Error))
+#7 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(148): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(Error))
+#8 /home/msfgfinance/public_html/app/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#9 {main}
+  thrown in /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 352
+[07-Sep-2024 04:31:30 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:352
+Stack trace:
+#0 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(744): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(719): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(650): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(556): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(473): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(Error))
+#6 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(509): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Error))
+#7 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(148): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(Error))
+#8 /home/msfgfinance/public_html/app/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#9 {main}
+  thrown in /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 352
+[07-Sep-2024 04:31:31 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:352
+Stack trace:
+#0 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(744): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(719): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(650): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(556): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(473): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(Error))
+#6 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(509): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Error))
+#7 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(148): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(Error))
+#8 /home/msfgfinance/public_html/app/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#9 {main}
+  thrown in /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 352
+[07-Sep-2024 04:49:11 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:352
+Stack trace:
+#0 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(744): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(719): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(650): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(556): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(473): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(Error))
+#6 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(509): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Error))
+#7 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(148): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(Error))
+#8 /home/msfgfinance/public_html/app/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#9 {main}
+  thrown in /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 352
+[07-Sep-2024 04:49:13 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:352
+Stack trace:
+#0 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(744): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(719): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(650): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(556): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(473): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(Error))
+#6 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(509): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Error))
+#7 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(148): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(Error))
+#8 /home/msfgfinance/public_html/app/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#9 {main}
+  thrown in /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 352
+[07-Sep-2024 04:49:14 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:352
+Stack trace:
+#0 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(744): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(719): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(650): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(556): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(473): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(Error))
+#6 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(509): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Error))
+#7 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(148): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(Error))
+#8 /home/msfgfinance/public_html/app/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#9 {main}
+  thrown in /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 352
+[07-Sep-2024 04:49:15 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:352
+Stack trace:
+#0 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(744): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(719): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(650): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(556): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(473): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(Error))
+#6 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(509): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Error))
+#7 /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(148): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(Error))
+#8 /home/msfgfinance/public_html/app/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#9 {main}
+  thrown in /home/msfgfinance/public_html/app/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 352
+[07-Sep-2024 05:38:28 UTC] PHP Fatal error:  Cannot declare class FPDF, because the name is already in use in /home/msfgfinance/public_html/app/Libraries/PDFMerger/tcpdf/tcpdi.php on line 22
+[07-Sep-2024 05:39:48 UTC] PHP Fatal error:  Cannot declare class FPDF, because the name is already in use in /home/msfgfinance/public_html/app/Libraries/PDFMerger/tcpdf/tcpdi.php on line 22
+[07-Sep-2024 06:16:38 UTC] PHP Fatal error:  Cannot declare class FPDF, because the name is already in use in /home/msfgfinance/public_html/app/Libraries/PDFMerger/tcpdf/tcpdi.php on line 22

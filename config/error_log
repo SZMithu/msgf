@@ -1,0 +1,8 @@
+[26-Jul-2024 02:29:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/msfgfinance/public_html/app/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/msfgfinance/public_html/app/config/database.php on line 18
+[27-Jul-2024 03:10:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/msfgfinance/public_html/app/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/msfgfinance/public_html/app/config/database.php on line 18
