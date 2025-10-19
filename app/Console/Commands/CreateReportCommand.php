@@ -3,12 +3,11 @@
 namespace App\Console\Commands;
 
 use App\Models\MCADocuments;
-use Illuminate\Console\Command;
-use Webklex\IMAP\Facades\Client;
-use App\Jobs\UploadFileForMCAAndCreateReportJob;
 use App\Models\MCAFileForAdmin;
-use App\Models\MCAReportForAdmin;
+use Illuminate\Console\Command;
 use App\Models\MCAScannedEmails;
+use App\Models\MCAReportForAdmin;
+use App\Jobs\UploadFileForMCAAndCreateReportJob;
 
 
 class CreateReportCommand extends Command
@@ -43,6 +42,15 @@ class CreateReportCommand extends Command
                 continue;
             }
 
+            $missing_report = MCAFileForAdmin::where('batch_id', $document->batch_id)->where('status', 'In Process')->first();
+            if ($missing_report) {
+                $missing_report->delete();
+            }
+
+            if($document->attachments_count == 0){
+                $document->delete();
+                continue;
+            }
             UploadFileForMCAAndCreateReportJob::dispatch($document->batch_id);
         }
     }

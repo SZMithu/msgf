@@ -87,7 +87,7 @@ class MCAReportFromEmailDocCommand extends Command
                         'attachments_count' => count($pdfAttachments),
                         'report_status' => 'pending',
                     ]);
-                    UploadFileForMCAAndCreateReportJob::dispatch($batchId);
+                    // UploadFileForMCAAndCreateReportJob::dispatch($batchId);
                 }
             }
             $message->setFlag('Seen');

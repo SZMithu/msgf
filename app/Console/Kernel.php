@@ -16,6 +16,7 @@ class Kernel extends ConsoleKernel
     protected $commands = [
         'App\Console\Commands\MCAReportFromEmailDocCommand',
         'App\Console\Commands\CreateReportCommand',
+        'App\Console\Commands\OldFiledeleteCommand',
     ];
     /**
      * Define the application's command schedule.
@@ -28,6 +29,7 @@ class Kernel extends ConsoleKernel
         $schedule->command('queue:work --stop-when-empty')->everyFiveMinutes()->withoutOverlapping();
         $schedule->command('Create:mcareportfromemaildoc')->withoutOverlapping()->everyFifteenMinutes();
         $schedule->command('Create:report')->withoutOverlapping()->everyFifteenMinutes();
+        $schedule->command('oldfile:delete')->dailyAt('02:00');
     }
 
     /**

@@ -17,13 +17,12 @@ use App\Http\Controllers\Apps\PermissionManagementController;
 use App\Http\Controllers\Apps\Mca\MCAFetchDocFromEmailController;
 
 
-Route::get('/email-status', function () {
-    Artisan::call('Create:report');
+Route::get('/test-file-delete', function () {
+    Artisan::call('oldfile:delete');
 });
 
-Route::get('/test-email', function () {
-    Artisan::call('Create:mcareportfromemaildoc');
-    return redirect()->route('mca.reports');
+Route::get('/test-report', function () {
+    Artisan::call('Create:report');
 })->name('mca.scan.email');
 /*
 |--------------------------------------------------------------------------

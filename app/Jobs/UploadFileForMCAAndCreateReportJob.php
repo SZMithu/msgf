@@ -46,7 +46,7 @@ class UploadFileForMCAAndCreateReportJob implements ShouldQueue
     {
         foreach ($files as $file) {
             $path = storage_path('app/email_attachments/' . $file->name);
-
+            $filename = $file->name;
             // Upload each file to OpenAI
             $response = Http::withHeaders([
                 'Authorization' => 'Bearer ' . $this->api_key,
@@ -59,9 +59,10 @@ class UploadFileForMCAAndCreateReportJob implements ShouldQueue
                     'purpose' => 'assistants',
                 ]);
             $fileData = $response->json();
+
             if (isset($fileData['id'])) {
                 $pdf_fileIds_names[] = ['id' => $fileData['id'], 'name' => $file->name];
-            }else{
+            } else {
                 ErrorLog::create([
                     'batch_id' => $this->batchId,
                     'file_name' => $file->name,
@@ -120,7 +121,7 @@ class UploadFileForMCAAndCreateReportJob implements ShouldQueue
                 'file_id' => $fileId,
                 'file_text' => $fileData,
             ]);
-        }else{
+        } else {
             ErrorLog::create([
                 'batch_id' => $batchId,
                 'file_name' => $name,
