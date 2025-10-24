@@ -233,12 +233,12 @@ class MCAReportController extends Controller
                 $files = json_decode($file->file_id);
                 $vs_files = json_decode($file->vs_file_id);
                 if ($files !== [] || $vs_files !== []) {
-                    // MCAFileDeleteJob::dispatch($files, $vs_files, $file);
+                     MCAFileDeleteJob::dispatch($files, $vs_files, $file);
                 }
-                $file->delete();
                 if ($file->report()->exists()) {
                     $file->report->delete();
                 }
+                $file->delete();
                 return response()->json('success');
             } else {
                 return response()->json('error');
@@ -256,7 +256,7 @@ class MCAReportController extends Controller
     {
         $ID = $request->report_id;
         $file = MCAFileForAdmin::find($ID);
-        
+
         $batchId = $file->batch_id;
         if ($batchId === null) {
             $batchId = uniqid('batch_', true);

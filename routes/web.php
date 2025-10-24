@@ -1,25 +1,20 @@
 <?php
 
 use Dompdf\Options;
+
 use App\Models\MCAFileForAdmin;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Artisan;
 use App\Http\Controllers\DashboardController;
-
-
 use App\Http\Controllers\Auth\SocialiteController;
 use App\Http\Controllers\Apps\Mca\MCAReportController;
-use App\Http\Controllers\Apps\FormManagementController;
 //use App\Http\Controllers\FormController;
+use App\Http\Controllers\Apps\FormManagementController;
 use App\Http\Controllers\Apps\RoleManagementController;
 use App\Http\Controllers\Apps\UserManagementController;
 use App\Http\Controllers\Apps\PermissionManagementController;
 use App\Http\Controllers\Apps\Mca\MCAFetchDocFromEmailController;
 
-
-Route::get('/test-file-delete', function () {
-    Artisan::call('oldfile:delete');
-});
 
 Route::get('/test-report', function () {
     Artisan::call('Create:report');

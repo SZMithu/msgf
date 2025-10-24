@@ -17,6 +17,7 @@ class Kernel extends ConsoleKernel
         'App\Console\Commands\MCAReportFromEmailDocCommand',
         'App\Console\Commands\CreateReportCommand',
         'App\Console\Commands\OldFiledeleteCommand',
+        'App\Console\Commands\DeleteOldFileFromAIserverCommand',
     ];
     /**
      * Define the application's command schedule.
@@ -30,6 +31,7 @@ class Kernel extends ConsoleKernel
         $schedule->command('Create:mcareportfromemaildoc')->withoutOverlapping()->everyFifteenMinutes();
         $schedule->command('Create:report')->withoutOverlapping()->everyFifteenMinutes();
         $schedule->command('oldfile:delete')->dailyAt('02:00');
+        $schedule->command('oldfileFromAiServer:delete')->daily();
     }
 
     /**
